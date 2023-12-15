@@ -1,0 +1,1284 @@
+body{
+    margin: 0;
+}
+
+/*Адаптив под ПК*/
+
+
+@media(min-width:1280px){
+
+    .contain{
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+    .block
+    .block_grow{ 
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .block_column{
+        text-align: center;
+        align-items: center;
+    
+    }
+
+
+    /*Header*/
+
+
+    .search{
+
+        margin-top: 12%;     
+    }
+    .search > input{
+        height: 30px;
+        padding-left: 15px; 
+        font-size: 20px;  
+        
+    }
+    .menu{
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    /*MAIN*/
+
+    /*1 раздел*/
+
+
+    .game_image{
+        background-color: red;
+        background-image: url("IMG/Back_fon.png");
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+    }
+    .game_image > div > h2{
+        font-size: 36px;
+        padding-top: 5%;
+        margin: 0 auto;
+        width: 25.5%;
+    }
+    .game_image > div > p{
+        padding-top: 1%;
+        width: 30%;
+        margin: 0 auto;
+        color: grey;
+    }
+
+
+    /*2 раздел*/
+
+
+    .Seca{
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .Seca > h2{
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    .Seca > p{
+        color: gray;
+    }
+
+    #First_mission{
+        width: 30%;
+        margin: 0 auto;
+    }
+    #Second_See{
+        width: 30%;
+        margin: 0 auto;
+        background-color: rgb(229,229,229);
+    }
+    
+
+    /*3 Раздел*/
+
+    .Third_r{
+        background-color: rgb(229,229,229);
+        max-width: 100%;
+        padding-bottom: 5%;        
+        
+    }
+
+    #ss{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Free_games{
+        padding-top: 1%;
+        padding: 2%;
+        background-color: white;
+        width: 30%;
+        height: 500px;
+        text-align: left;
+        margin: 15px;
+        
+
+
+    }
+
+
+    .block_grow1{ 
+        display: flex;
+        justify-content: center;
+
+    }
+    .block_column1{
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    #Free_games > h3{
+        color:rgb(127,147,208);
+        padding-top: 40%;
+        font-size: 30px;
+    }
+
+    #Free_games > p{
+        font-size: 20px;
+    }
+
+    #Free_games2{
+
+        background-color: white;
+        width: 33%;
+        height: 550px;
+        margin: 15px;
+        
+    }
+    #Free_games2 > img{
+        width: 100%;
+        height: 100%;
+    }
+    .block_column2{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+    
+    }
+    .Circle{
+        border-radius: 100%;
+        background-color: rgba(127,147,208, 0.5);
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        
+
+    }
+    .Circle:hover{
+        background-color: rgba(127,147,208, 1);
+    }
+
+    .button{
+        background-color: rgb(127,147,208);
+        margin: 10% auto;
+        font-size: 25px;
+        color: white;
+        width: 100%;
+        padding: 5%;
+        
+    }
+
+    .button:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+    /*4 Раздел*/
+
+    .Innovations{
+        width: 400px;
+        height: 600px;
+        background-color: red;
+        background-image: url("IMG/gamepad.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: border-box;
+        padding-left: 1%;
+    }
+
+    .Innovations > p{
+        
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
+
+
+    .block_grow2{ 
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+    }
+    .space_programm{
+        text-align: right;
+        font-size: 30px;
+    }
+
+
+    /*Пятый раздел*/
+    
+
+    .Fifth_r{
+        background-color: rgb(44,91,204);
+        max-width: 100%;  
+        padding-bottom: 2%;    
+        
+    }
+
+    .block_grow3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .block_column3{
+        text-align: left;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 30%;
+        color: white;
+        justify-content: space-between;
+        
+    
+    }
+    .block_column4{
+        text-align: right;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 30%;
+        color: white;
+        justify-content: space-between;
+        
+    }
+    .block_column3 > h2{
+        font-size: 30px;
+    }
+    .block_column4 > p {
+        font-size: 24px;
+    }
+
+
+    /*6 раздел*/
+
+
+    .block_grow4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .block_grow5{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+
+    }
+
+
+
+    .image_block{
+        background-image: url("IMG/Back_fon.png");
+        background-size: contain;
+        width: 500px;
+        height: 400px;
+    }
+    .testing_box{
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        margin-left: 2%;
+    
+    }
+    .testing_box{
+        text-align: center;
+        background-color: rgb(242,242,242);
+        padding: 1%;
+    }
+    
+    #testing_box_color{
+        background-color: rgb(229,229,229);
+    }
+
+    .block_column5 > p{
+        width: 98%;
+    }
+
+
+    /*7 раздел*/
+
+    
+    .block_grow6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+
+    }
+
+    .block_column6{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column6 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .block_column7{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column7 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .containeer{
+        width: 100%;
+        display: flex;
+        background-color: black;
+    }
+
+    .containeer > div > img:hover{
+        opacity: 0.7;
+    }
+
+    /*8 раздел*/
+
+
+    .eight{
+        background-image: url("IMG/gamepad.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 55%;
+        height: 500px;
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 5%;
+    }
+    .eight > p{
+        width: 30%;
+        display: inline-block;
+    }
+
+
+    /* 9 Раздел - подвал*/
+
+    .footer{
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        height: 200px;
+        padding-top: 1%;
+        color: white;
+    }
+    .footer > p{
+        margin-top: 3%;
+    }
+    .footer_text{
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .footer_links{
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+}
+
+    .footer_links > a{
+        color: white;
+    }
+}
+
+
+/*Адаптив под планшет*/
+
+
+@media(min-width:768px) and (max-width:1279px){
+
+
+    .contain{
+        width: 768px;
+        margin: 0 auto;
+    }
+    .block
+    .block_grow{ 
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .block_column{
+        display: flex;
+
+        align-items: center;
+    
+    }
+
+
+    /*Header*/
+
+
+    .search{
+        background-color: yellowgreen;
+    }
+    .search > input{
+        height: 30px;
+        padding-left: 15px; 
+        font-size: 20px;       
+    }
+    .menu{
+        font-size: 30px;
+        padding: 30%;
+        text-align: center;
+    }
+
+
+/*MAIN*/
+
+    
+.game_image{
+    background-color: red;
+    background-image: url("IMG/Back_fon.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.game_image > div > h2{
+    font-size: 30px;
+    padding-top: 15%;
+    margin: 0 auto;
+    width: 50%;
+}
+.game_image > div > p{
+    padding-top: 1%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+    /*2 раздел*/
+
+
+    .Seca{
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+    }
+    .Seca > h2{
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    .Seca > p{
+        color: gray;
+    }
+
+    #First_mission{
+        width: 30%;
+        margin: 0 auto;
+    }
+
+
+    #Second_See{
+        width: 30%;
+        margin: 0 auto;
+        background-color: rgb(229,229,229);
+    }
+    
+
+    /*3 Раздел*/
+
+    .Third_r{
+        background-color: rgb(229,229,229);
+        max-width: 100%;
+        margin-top: 15%;
+        
+        
+    }
+
+    #ss{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Free_games{
+        padding-top: 1%;
+        padding: 2%;
+        background-color: white;
+        width: 40%;
+        height: 500px;
+        text-align: left;
+        margin: 15px;
+        
+
+
+    }
+
+
+    .block_grow1{ 
+        display: flex;
+        justify-content: center;
+
+    }
+    .block_column1{
+        text-align: center;
+        align-items: center;
+    
+    }
+    
+    #Free_games > h3{
+        color:rgb(127,147,208);
+        padding-top: 40%;
+        font-size: 30px;
+    }
+
+    #Free_games > p{
+        font-size: 20px;
+    }
+
+    #Free_games2{
+
+        background-color: white;
+        width: 40%;
+        height: 550px;
+        margin: 15px;
+        
+    }
+    #Free_games2 > img{
+        width: 100%;
+        height: 100%;
+    }
+    .block_column2{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+    
+    }
+    .Circle{
+        border-radius: 100%;
+        background-color: rgba(127,147,208, 0.5);
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        
+
+    }
+    .Circle:hover{
+        background-color: rgba(127,147,208, 1);
+    }
+
+    .button{
+        background-color: rgb(127,147,208);
+        margin: 10% auto;
+        font-size: 25px;
+        color: white;
+        width: 100%;
+        padding: 5%;
+        
+    }
+
+    .button:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+    /*4 Раздел*/
+
+
+    .Innovations{
+        width: 300px;
+        height: 400px;
+        background-color: red;
+        background-image: url("IMG/gamepad.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-clip: border-box;
+        padding-left: 1%;
+    }
+
+    .Innovations > p{
+        
+        font-size: 30px;
+        text-align: left;
+        color: white;
+    }
+
+    .Innovations > img{
+        width: 100%;
+        height: 100%;
+    }
+    .block_grow2{ 
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+
+    }
+    .space_programm{
+        text-align: right;
+        font-size: 30px;
+        margin: 0;
+    }
+    .margi{
+        margin-bottom: 10%;
+        margin-right: 10%;
+    }
+
+
+    /*Пятый раздел*/
+    
+    
+    .Fifth_r{
+        background-color: rgb(44,91,204);
+        max-width: 100%;      
+        
+    }
+
+    .block_grow3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .block_column3{
+        text-align: left;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 30%;
+        color: white;
+        justify-content: space-between;
+        
+    
+    }
+    .block_column4{
+        text-align: right;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 30%;
+        color: white;
+        justify-content: space-between;
+        
+    }
+    .block_column3 > h2{
+        font-size: 30px;
+    }
+    .block_column4 > p {
+        font-size: 24px;
+    }    
+
+
+    /*6 раздел*/
+
+
+    .block_grow4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .block_grow5{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+
+    }
+
+
+
+    .image_block{
+        background-image: url("IMG/Back_fon.png");
+        background-size: contain;
+        width: 500px;
+        height: 400px;
+    }
+    .testing_box{
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        margin-left: 2%;
+    
+    }
+    .testing_box{
+        text-align: center;
+        background-color: rgb(242,242,242);
+        padding: 1%;
+    }
+    
+    #testing_box_color{
+        background-color: rgb(229,229,229);
+    }
+
+    .block_column5 > p{
+        width: 98%;
+    }
+    
+
+    /*7 раздел*/
+
+    
+    .block_grow6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+
+    .block_column6{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column6 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .block_column7{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column7 > img{
+        width: 100%;
+        height: 100%;
+    }
+    .containeer{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    /*8 раздел*/
+
+
+    .eight{
+        background-image: url("IMG/gamepad.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*background-position-y: 55%;*/
+        background-position: center;
+        height: 500px;
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 5%;
+    }
+    .eight > p{
+        width: 60%;
+        display: inline-block;
+    }
+
+        /* 9 Раздел - подвал*/
+
+    .footer{
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        height: 200px;
+        padding-top: 1%;
+        color: white;
+    }
+    .footer > p{
+        margin-top: 3%;
+    }
+    .footer_text{
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+    }
+    .footer_links{
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+
+}
+
+    .footer_links > a{
+        color: white;
+    }
+
+
+ 
+}
+
+
+/*Адаптив под телефон*/
+
+
+@media(min-width:320px) and (max-width:767px){
+
+    .contain{
+        width: 320px;
+        margin: 0 auto;
+    }
+    .block
+    .block_grow{ 
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .block_column{
+        display: flex;
+        align-items: center;
+    }
+
+
+    /*Header*/
+
+    #head_grow{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        
+        padding: 10%;
+    }
+    .search{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .search > input{
+        height: 30px;
+        padding-left: 15px; 
+        font-size: 20px;       
+    }
+    .menu{
+        font-size: 30px;
+        text-align: center;
+        width: 20%;
+        margin: 5% auto;
+    }
+
+
+/*MAIN*/
+
+    
+    .game_image{
+        background-color: red;
+        background-image: url("IMG/Back_fon.png");
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: 60%;
+        background-size: cover;
+        height: 500px;
+    }
+    .game_image > div > h2{
+        font-size: 25px;
+        padding-top: 45%;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .game_image > div > p{
+        padding-top: 1%;
+        width: 80%;
+        margin: 0 auto;
+        color: grey;
+    }
+    
+
+
+
+    /*2 раздел*/
+
+
+    .Seca{
+        text-align: center;
+        width: 99%;
+        margin: 0 auto;
+    }
+    .Seca > h2{
+        padding-top: 5%;
+        font-size: 30px;
+    }
+    .Seca > p{
+        color: gray;
+    }
+
+    #First_mission{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    #First_mission > p{
+        width: 80%;
+        margin: 20px auto;
+    }
+    #Second_See > p{
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #Second_See{
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgb(229,229,229);
+    }
+    
+
+    /*3 Раздел*/
+
+    .Third_r{
+        background-color: rgb(229,229,229);
+        max-width: 100%;
+        margin-top: 10%;
+        
+        
+    }
+
+    #ss{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Free_games{
+        padding-top: 1%;
+        padding: 2%;
+        background-color: white;
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        margin: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+
+
+    }
+
+
+    .block_grow1{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .block_column1{
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    
+    #Free_games > h3{
+        color:rgb(127,147,208);
+        padding-top: 40%;
+        font-size: 30px;
+    }
+
+    #Free_games > p{
+        font-size: 20px;
+    }
+
+    #Free_games2{
+
+        background-color: white;
+        width: 100%;
+        height: 550px;
+        margin: 15px;
+        
+    }
+    #Free_games2 > img{
+        width: 100%;
+        height: 100%;
+    }
+    .block_column2{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+    
+    }
+    .Circle{
+        border-radius: 100%;
+        background-color: rgba(127,147,208, 0.5);
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        
+
+    }
+
+
+    .button{
+        background-color: rgb(127,147,208);
+        margin: 10% auto;
+        font-size: 25px;
+        color: white;
+        width: 100%;
+        padding: 5%;
+        
+    }
+
+    #DISPnone{
+        display: none;
+    }
+
+
+        /*4 Раздел*/
+
+
+        .Innovations{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            background-image: url("IMG/gamepad.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-clip: border-box;
+            padding: 1%;
+        }
+    
+        .Innovations > p{
+            
+            font-size: 30px;
+            text-align: left;
+            color: white;
+        }
+    
+        .Innovations > img{
+            width: 100%;
+            height: 100%;
+        }
+        /*.block_grow2{ 
+            display: flex;
+            align-items: end;
+            justify-content: space-between;
+    
+        }*/
+        .space_programm{
+            text-align: right;
+            font-size: 30px;
+            margin: 0;
+        }
+        /*.margi{
+            margin-top: 10%;
+        }*/
+
+
+    /*Пятый раздел*/
+    
+    
+    .Fifth_r{
+        background-color: rgb(44,91,204);
+        max-width: 100%;     
+        padding-top: 10%; 
+        
+    }
+
+    .block_grow3{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .block_column3{
+        text-align: left;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 100%;
+        color: white;
+        justify-content: space-between;
+        
+    
+    }
+    .block_column4{
+        text-align: right;
+        align-items: center;
+        display: flex;
+        padding-top: 3%;
+        width: 100%;
+        color: white;
+        justify-content: space-between;
+        
+    }
+    .block_column3 > h2{
+        font-size: 30px;
+    }
+    .block_column4 > p {
+        font-size: 24px;
+    }    
+    
+
+    /*6 раздел*/
+
+
+    .block_grow4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .block_grow5{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        flex-wrap: wrap;
+
+    }
+
+
+
+    .image_block{
+        background-image: url("IMG/Back_fon.png");
+        background-size: contain;
+        width: 500px;
+        height: 400px;
+    }
+    .testing_box{
+        text-align: center;
+        width:400px;
+        height: 100px;
+        margin-left: 2%;
+        padding: 5%;
+        margin-left: 25%;
+    
+    }
+    
+    #testing_box_color{
+        background-color: rgb(229,229,229);
+    }
+
+    .block_column5 > p{
+        width: 98%;
+        margin-left: 6%;
+
+    }
+        .block_column5 > h2{
+        width: 98%;
+        margin-left: 6%;
+
+    }
+        .block_column5 > h3{
+        width: 98%;
+        margin-left: 6%;
+
+    }
+    
+
+    /*7 раздел*/
+
+    
+    .block_grow6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+
+    }
+
+    .block_column6{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column6 > img{
+        width: 100%;
+        height: 100%;
+    }
+
+    
+    .block_column7{
+        width: 100%;
+        height: 450px;
+
+    }
+    .block_column7 > img{
+        width: 100%;
+        height: 100%;
+    }
+    .containeer{
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    
+
+    /*8 раздел*/
+
+
+    .eight{
+        background-image: url("IMG/gamepad.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*background-position-y: 55%;*/
+        background-position: center;
+        height: 500px;
+        color: white;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 5%;
+    }
+    .eight > p{
+        width: 90%;
+        display: inline-block;
+    }
+
+    /* 9 Раздел - подвал*/
+
+    .footer{
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        height: 200px;
+        padding-top: 1%;
+        color: white;
+    }
+    .footer > p{
+        margin-top: 10%;
+    }
+    .footer_text{
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer_links{
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+
+}
+
+    .footer_links > a{
+        color: white;
+    }
+
+
+
+
+ 
+
+ 
+}
